@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4CAF50, #45a049);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    background: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.property {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.property h3 {
+    margin-top: 0;
+}
+
+.property input, .property textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.property-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.star-rating input[type="number"] {
+    width: 40px;
+}
+
+.comparison-result {
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.comparison-result h2 {
+    margin-top: 0;
+}
